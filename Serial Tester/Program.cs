@@ -9,7 +9,7 @@ namespace SerialTester
         public static void Main(string[] args)
         {
             SerialWorker worker = new SerialWorker();
-            Console.WriteLine("Hex값, 띄어쓰기, 대문자, break입력 시 종료");
+            Console.WriteLine("Hex값, 띄어쓰기, 대문자,CRC 자동계산(입력 불필요,  break입력 시 종료");
             while (true)
             {
                 string arg = Console.ReadLine();
